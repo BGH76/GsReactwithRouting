@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+/* Home Page */
+.homepage {
+    text-align: center;
+}
+.ui.grid {
+    text-align: center;
+    margin-top: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.yellow {
+    font-size: 1.8rem;
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.red {
+    font-size: 1.8rem;
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+.link {
+    padding-top: 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.blue {
+    font-size: 1.8rem;
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+.link_color {
+    color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.green {
+    font-size: 1.8rem;
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.page {
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 800;
+    margin: 50px;
+}
+.red_letters {
+    color: red;
+}
+.yellow_letters {
+    color: yellow;
+}
+.green_letters {
+    color: green;
+}
+.blue_letters {
+    color: blue;
+}
+
+.home_link {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px;
 }
